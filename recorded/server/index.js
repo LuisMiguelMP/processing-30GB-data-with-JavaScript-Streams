@@ -20,7 +20,7 @@ createServer(async (request, response) => {
     return;
   }
   let counter = 0
-  const filename = './data/big-file.csv'
+  const filename = './data/animeflv.csv'
   const { size } = await stat(filename)
   console.log('processing', `${byteSize(size)}`)
   try {
